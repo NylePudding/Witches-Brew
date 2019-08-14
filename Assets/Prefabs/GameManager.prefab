@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1763594247557962}
+  m_IsPrefabParent: 1
+--- !u!1 &1763594247557962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4316033434807798}
+  - component: {fileID: 114529556746794568}
+  - component: {fileID: 114761661376227010}
+  - component: {fileID: 114596614765343380}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4316033434807798
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763594247557962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 631.65393, y: 216.22911, z: -70.69702}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114529556746794568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763594247557962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00d8cb85dce7d84f8bfe41a4ade36c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExploreZone: {fileID: 0}
+  InventoryZone: {fileID: 0}
+--- !u!114 &114596614765343380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763594247557962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1f1e2a54cdad041beccae8bbf98e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Card: {fileID: 1274345049148924, guid: 2aa77b639a4736f4cb284e8c6b9457c3, type: 2}
+--- !u!114 &114761661376227010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763594247557962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2e285e88141744796dd27d3822971d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Familiars:
+  - {fileID: 1588873896206412, guid: 5e5d64ffad2d88d41881256200727435, type: 2}
+  Ingredients:
+  - {fileID: 1113644349963460, guid: cc469a3cd273bef44a2117549f75aa4f, type: 2}
+  Locations:
+  - {fileID: 1108417346086534, guid: 676521784a6ff7d43a1c778584086870, type: 2}
